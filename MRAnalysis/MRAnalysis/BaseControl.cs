@@ -23,9 +23,9 @@ namespace MRAnalysis
 
         public bool _isAnalysis = false;
         public EnumHelper.FileType _fileType;
-        public string _rootPath = Path.Combine(@"C:\", "DownLoad");
-        public string _unZipPath = Path.Combine(@"C:\", "UnZip");
-        public string _outputPath = Path.Combine(@"C:\", "OutPut");
+        public string _rootPath = Path.Combine(@"D:\", "DownLoad");
+        public string _unZipPath = Path.Combine(@"D:\", "UnZip");
+        public string _outputPath = Path.Combine(@"D:\", "OutPut");
         public List<string> _lstSequence = new List<string>();
         public List<string> _dateList = new List<string>();
         public Dictionary<string, List<string>> _dicLocalDir = new Dictionary<string, List<string>>();

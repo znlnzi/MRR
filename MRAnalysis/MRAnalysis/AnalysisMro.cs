@@ -104,7 +104,7 @@ namespace MRAnalysis
             foreach (var mro in _dicMro.Values)
             {
                 var row = table.NewRow();
-                row["移动小区"] = mro.Earfcn + "-" + mro.ScPci;
+                row["移动小区"] = mro.CellId/256 + "-" + mro.ScPci;
                 row["采样点"] = mro.Count;
                 row[">=-100采样点"] = mro.Rsrp100;
                 row[">=-110采样点"] = mro.Rsrp110;
