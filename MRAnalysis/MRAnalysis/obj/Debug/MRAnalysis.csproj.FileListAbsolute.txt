@@ -1,0 +1,14 @@
+\\mac\home\documents\visual studio 2015\Projects\MRAnalysis\MRAnalysis\bin\Debug\MRAnalysis.exe.config
+\\mac\home\documents\visual studio 2015\Projects\MRAnalysis\MRAnalysis\bin\Debug\MRAnalysis.exe
+\\mac\home\documents\visual studio 2015\Projects\MRAnalysis\MRAnalysis\bin\Debug\MRAnalysis.pdb
+\\mac\home\documents\visual studio 2015\Projects\MRAnalysis\MRAnalysis\bin\Debug\ICSharpCode.SharpZipLib.dll
+\\mac\home\documents\visual studio 2015\Projects\MRAnalysis\MRAnalysis\bin\Debug\log4net.dll
+\\mac\home\documents\visual studio 2015\Projects\MRAnalysis\MRAnalysis\bin\Debug\log4net.xml
+\\mac\home\documents\visual studio 2015\Projects\MRAnalysis\MRAnalysis\obj\Debug\MRAnalysis.BaseControl.resources
+\\mac\home\documents\visual studio 2015\Projects\MRAnalysis\MRAnalysis\obj\Debug\MRAnalysis.Properties.Resources.resources
+\\mac\home\documents\visual studio 2015\Projects\MRAnalysis\MRAnalysis\obj\Debug\MRAnalysis.csproj.GenerateResource.Cache
+\\mac\home\documents\visual studio 2015\Projects\MRAnalysis\MRAnalysis\obj\Debug\MRAnalysis.exe
+\\mac\home\documents\visual studio 2015\Projects\MRAnalysis\MRAnalysis\obj\Debug\MRAnalysis.pdb
+\\mac\home\documents\visual studio 2015\Projects\MRAnalysis\MRAnalysis\obj\Debug\MRAnalysis.MainForm.resources
+\\mac\home\documents\visual studio 2015\Projects\MRAnalysis\MRAnalysis\obj\Debug\MRAnalysis.LogControl.resources
+\\mac\home\documents\visual studio 2015\Projects\MRAnalysis\MRAnalysis\obj\Debug\MRAnalysis.csprojResolveAssemblyReference.cache

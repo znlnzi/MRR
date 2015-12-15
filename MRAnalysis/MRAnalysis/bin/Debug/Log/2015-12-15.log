@@ -1,0 +1,33 @@
+-----------程序开始运行-----------记录时间：2015-12-15 16:56:42,361 线程ID:[9] 日志级别：INFO  出错类：MRAnalysis.AnalysisMro property:[(null)] - 错误描述：开始解析...
+记录时间：2015-12-15 16:56:42,422 线程ID:[9] 日志级别：ERROR 出错类：MRAnalysis.AnalysisMro property:[(null)] - 错误描述：解析失败:设备未就绪。
+
+-----------程序开始运行-----------记录时间：2015-12-15 16:57:44,444 线程ID:[9] 日志级别：INFO  出错类：MRAnalysis.AnalysisMro property:[(null)] - 错误描述：开始解析...
+记录时间：2015-12-15 16:57:44,500 线程ID:[9] 日志级别：ERROR 出错类：MRAnalysis.AnalysisMro property:[(null)] - 错误描述：解析失败:设备未就绪。
+
+记录时间：2015-12-15 16:59:45,657 线程ID:[9] 日志级别：INFO  出错类：MRAnalysis.AnalysisMro property:[(null)] - 错误描述：开始解析...
+记录时间：2015-12-15 16:59:45,667 线程ID:[9] 日志级别：ERROR 出错类：MRAnalysis.AnalysisMro property:[(null)] - 错误描述：解析失败:设备未就绪。
+
+-----------程序开始运行-----------记录时间：2015-12-15 17:00:26,899 线程ID:[9] 日志级别：INFO  出错类：MRAnalysis.AnalysisMro property:[(null)] - 错误描述：开始解析...
+记录时间：2015-12-15 17:00:26,958 线程ID:[MRO] 日志级别：INFO  出错类：MRAnalysis.AnalysisMro property:[(null)] - 错误描述：FTP[127.0.0.1]开始连接
+记录时间：2015-12-15 17:00:26,973 线程ID:[MRO] 日志级别：ERROR 出错类：MRAnalysis.AnalysisMro property:[(null)] - 错误描述：FTP[127.0.0.1]连接失败:索引超出了数组界限。
+-----------程序开始运行-----------记录时间：2015-12-15 17:01:07,289 线程ID:[9] 日志级别：INFO  出错类：MRAnalysis.AnalysisMro property:[(null)] - 错误描述：开始解析...
+记录时间：2015-12-15 17:01:07,347 线程ID:[MRO] 日志级别：INFO  出错类：MRAnalysis.AnalysisMro property:[(null)] - 错误描述：FTP[127.0.0.1]开始连接
+记录时间：2015-12-15 17:01:07,362 线程ID:[MRO] 日志级别：ERROR 出错类：MRAnalysis.AnalysisMro property:[(null)] - 错误描述：FTP[127.0.0.1]连接失败:Couldn't connect to remote server
+记录时间：2015-12-15 17:01:18,843 线程ID:[9] 日志级别：INFO  出错类：MRAnalysis.AnalysisMro property:[(null)] - 错误描述：开始解析...
+记录时间：2015-12-15 17:01:18,849 线程ID:[MRO] 日志级别：INFO  出错类：MRAnalysis.AnalysisMro property:[(null)] - 错误描述：FTP[127.0.0.1]开始连接
+-----------程序开始运行-----------记录时间：2015-12-15 17:01:40,587 线程ID:[9] 日志级别：INFO  出错类：MRAnalysis.AnalysisMro property:[(null)] - 错误描述：开始解析...
+记录时间：2015-12-15 17:01:40,646 线程ID:[MRO] 日志级别：INFO  出错类：MRAnalysis.AnalysisMro property:[(null)] - 错误描述：FTP[127.0.0.1]开始连接
+记录时间：2015-12-15 17:01:43,411 线程ID:[MRO] 日志级别：INFO  出错类：MRAnalysis.AnalysisMro property:[(null)] - 错误描述：FTP[127.0.0.1]连接成功
+记录时间：2015-12-15 17:01:43,613 线程ID:[MRO] 日志级别：INFO  出错类：MRAnalysis.AnalysisMro property:[(null)] - 错误描述：FTP[127.0.0.1]开始获取文件列表
+记录时间：2015-12-15 17:01:44,021 线程ID:[MRO] 日志级别：INFO  出错类：MRAnalysis.AnalysisMro property:[(null)] - 错误描述：FTP[127.0.0.1]开始下载文件
+-----------程序开始运行-----------记录时间：2015-12-15 17:04:29,611 线程ID:[9] 日志级别：INFO  出错类：MRAnalysis.AnalysisMro property:[(null)] - 错误描述：开始解析...
+记录时间：2015-12-15 17:04:29,671 线程ID:[MRO] 日志级别：INFO  出错类：MRAnalysis.AnalysisMro property:[(null)] - 错误描述：FTP[127.0.0.1]开始连接
+记录时间：2015-12-15 17:04:30,678 线程ID:[MRO] 日志级别：INFO  出错类：MRAnalysis.AnalysisMro property:[(null)] - 错误描述：FTP[127.0.0.1]连接成功
+记录时间：2015-12-15 17:04:30,880 线程ID:[MRO] 日志级别：INFO  出错类：MRAnalysis.AnalysisMro property:[(null)] - 错误描述：FTP[127.0.0.1]开始获取文件列表
+记录时间：2015-12-15 17:04:37,279 线程ID:[MRO] 日志级别：INFO  出错类：MRAnalysis.AnalysisMro property:[(null)] - 错误描述：FTP[127.0.0.1]开始下载文件
+记录时间：2015-12-15 17:06:20,613 线程ID:[MRO] 日志级别：INFO  出错类：MRAnalysis.AnalysisMro property:[(null)] - 错误描述：站点[195409]下载文件完成
+记录时间：2015-12-15 17:06:20,815 线程ID:[MRO] 日志级别：INFO  出错类：MRAnalysis.AnalysisMro property:[(null)] - 错误描述：FTP[127.0.0.1]开始获取文件列表
+记录时间：2015-12-15 17:06:21,217 线程ID:[MRO] 日志级别：INFO  出错类：MRAnalysis.AnalysisMro property:[(null)] - 错误描述：FTP[127.0.0.1]开始下载文件
+记录时间：2015-12-15 17:09:56,991 线程ID:[MRO] 日志级别：INFO  出错类：MRAnalysis.AnalysisMro property:[(null)] - 错误描述：站点[195828]下载文件完成
+记录时间：2015-12-15 17:11:40,234 线程ID:[13] 日志级别：INFO  出错类：MRAnalysis.AnalysisMro property:[(null)] - 错误描述：导出文件【C:\OutPut\20151215171140\三大运营商网络覆盖率统计.csv】成功
+记录时间：2015-12-15 17:11:40,243 线程ID:[13] 日志级别：INFO  出错类：MRAnalysis.AnalysisMro property:[(null)] - 错误描述：导出文件成功

@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F18E68C2-47EE-48A7-83E4-B8BAB2502D95}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MRAnalysis</RootNamespace>
+    <AssemblyName>MRAnalysis</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpZipLib.0.86.0\lib\20\ICSharpCode.SharpZipLib.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.14.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.4\lib\net35-full\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnalysisMro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AnalysisMro.Designer.cs">
+      <DependentUpon>AnalysisMro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AnalysisMrs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AnalysisMrs.Designer.cs">
+      <DependentUpon>AnalysisMrs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Appender\DataGridAppender.cs" />
+    <Compile Include="BaseControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BaseControl.Designer.cs">
+      <DependentUpon>BaseControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\BaseHelper.cs" />
+    <Compile Include="Common\ExcelHelper.cs" />
+    <Compile Include="Common\EnumHelper.cs" />
+    <Compile Include="Common\FtpHelper.cs" />
+    <Compile Include="Common\LogHelper.cs" />
+    <Compile Include="Common\XmlHelper.cs" />
+    <Compile Include="Common\ZipHelper.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LogControl.Designer.cs">
+      <DependentUpon>LogControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\BaseEntity.cs" />
+    <Compile Include="Model\Ftp.cs" />
+    <Compile Include="Model\Log.cs" />
+    <Compile Include="Model\Mro.cs" />
+    <Compile Include="Model\Mrs.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="ProgressBarEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ProgressBarEx.Designer.cs">
+      <DependentUpon>ProgressBarEx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XML\XmlNode.cs" />
+    <Compile Include="XML\XmlNodeList.cs" />
+    <Compile Include="XML\XmlParser.cs" />
+    <EmbeddedResource Include="BaseControl.resx">
+      <DependentUpon>BaseControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogControl.resx">
+      <DependentUpon>LogControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\MRAnalysis.Model.Log.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
