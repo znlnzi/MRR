@@ -212,7 +212,7 @@ namespace MRAnalysis.Common
         {
             _mSocketConnect = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             IPHostEntry ipHost = Dns.GetHostEntry(mStrServer);
-            IPEndPoint iPEndPoint = new IPEndPoint(ipHost.AddressList[2], _mIntPort);
+            IPEndPoint iPEndPoint = new IPEndPoint(ipHost.AddressList[0], _mIntPort);
             try
             {
                 _mSocketConnect.Connect(iPEndPoint);

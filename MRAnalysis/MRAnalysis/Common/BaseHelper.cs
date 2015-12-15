@@ -21,7 +21,7 @@ namespace MRAnalysis.Common
         private static List<float> _ripprbValueLst;
         private static List<float> _enbRxTxTimeDiffValueLst;
         private static Dictionary<string,Ftp> _ftpDic = new Dictionary<string, Ftp>();
-        private static int _ftpCount = 1;
+        private static int _ftpCount = 3;
 
         #endregion
 

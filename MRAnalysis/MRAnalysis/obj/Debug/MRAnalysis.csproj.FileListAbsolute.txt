@@ -12,3 +12,17 @@
 \\mac\home\documents\visual studio 2015\Projects\MRAnalysis\MRAnalysis\obj\Debug\MRAnalysis.MainForm.resources
 \\mac\home\documents\visual studio 2015\Projects\MRAnalysis\MRAnalysis\obj\Debug\MRAnalysis.LogControl.resources
 \\mac\home\documents\visual studio 2015\Projects\MRAnalysis\MRAnalysis\obj\Debug\MRAnalysis.csprojResolveAssemblyReference.cache
+C:\Users\znlnz\Documents\GitHub\MRR\MRAnalysis\MRAnalysis\bin\Debug\MRAnalysis.exe.config
+C:\Users\znlnz\Documents\GitHub\MRR\MRAnalysis\MRAnalysis\obj\Debug\MRAnalysis.exe
+C:\Users\znlnz\Documents\GitHub\MRR\MRAnalysis\MRAnalysis\obj\Debug\MRAnalysis.pdb
+C:\Users\znlnz\Documents\GitHub\MRR\MRAnalysis\MRAnalysis\bin\Debug\MRAnalysis.exe
+C:\Users\znlnz\Documents\GitHub\MRR\MRAnalysis\MRAnalysis\bin\Debug\MRAnalysis.pdb
+C:\Users\znlnz\Documents\GitHub\MRR\MRAnalysis\MRAnalysis\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\znlnz\Documents\GitHub\MRR\MRAnalysis\MRAnalysis\bin\Debug\log4net.dll
+C:\Users\znlnz\Documents\GitHub\MRR\MRAnalysis\MRAnalysis\bin\Debug\log4net.xml
+C:\Users\znlnz\Documents\GitHub\MRR\MRAnalysis\MRAnalysis\obj\Debug\MRAnalysis.csprojResolveAssemblyReference.cache
+C:\Users\znlnz\Documents\GitHub\MRR\MRAnalysis\MRAnalysis\obj\Debug\MRAnalysis.BaseControl.resources
+C:\Users\znlnz\Documents\GitHub\MRR\MRAnalysis\MRAnalysis\obj\Debug\MRAnalysis.LogControl.resources
+C:\Users\znlnz\Documents\GitHub\MRR\MRAnalysis\MRAnalysis\obj\Debug\MRAnalysis.MainForm.resources
+C:\Users\znlnz\Documents\GitHub\MRR\MRAnalysis\MRAnalysis\obj\Debug\MRAnalysis.Properties.Resources.resources
+C:\Users\znlnz\Documents\GitHub\MRR\MRAnalysis\MRAnalysis\obj\Debug\MRAnalysis.csproj.GenerateResource.Cache
